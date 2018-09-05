@@ -4,6 +4,7 @@
 
 TEST(TBitField, can_create_bitfield_with_positive_length)
 {
+	//int a = 0;//
   ASSERT_NO_THROW(TBitField bf(3));
 }
 
